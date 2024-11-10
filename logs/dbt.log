@@ -1,0 +1,59 @@
+[0m10:48:10.687762 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc1b5ea9ff0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc1b6bbe050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc1b6bbdff0>]}
+
+
+============================== 10:48:10.691832 | dc49041d-0cdf-445b-b1ae-41ec312904df ==============================
+[0m10:48:10.691832 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m10:48:10.693046 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/istywhyerlina/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m10:48:19.165643 [debug] [MainThread]: Starter project path: /home/istywhyerlina/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m10:48:19.175300 [info ] [MainThread]: 
+Your new dbt project "dbt_transform" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:48:19.176270 [info ] [MainThread]: Setting up your profile.
+[0m10:48:25.479324 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 14.851603, "process_user_time": 1.462018, "process_kernel_time": 0.117308, "process_mem_max_rss": "86068", "process_in_blocks": "25904", "process_out_blocks": "72"}
+[0m10:48:25.481506 [debug] [MainThread]: Command `dbt init` succeeded at 10:48:25.481084 after 14.85 seconds
+[0m10:48:25.482885 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc1b5ea9ff0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc1b6bbfee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc1b6bbcb50>]}
+[0m10:48:25.483476 [debug] [MainThread]: Flushing usage events
+[0m10:48:26.814427 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:48:31.553555 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6e49146020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6e49e5a0b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6e49e5a050>]}
+
+
+============================== 10:48:31.556329 | 39442463-b4de-4e1c-8008-29727c999665 ==============================
+[0m10:48:31.556329 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m10:48:31.557460 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': '/home/istywhyerlina/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m10:48:37.624905 [debug] [MainThread]: Starter project path: /home/istywhyerlina/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m10:48:37.628812 [info ] [MainThread]: 
+Your new dbt project "pacbook_transform" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:48:37.629394 [info ] [MainThread]: Setting up your profile.
+[0m10:49:40.842628 [info ] [MainThread]: Profile pacbook_transform written to /home/istywhyerlina/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m10:49:40.846134 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 69.353355, "process_user_time": 1.599541, "process_kernel_time": 0.069592, "process_mem_max_rss": "90328", "process_in_blocks": "200", "process_out_blocks": "96"}
+[0m10:49:40.847544 [debug] [MainThread]: Command `dbt init` succeeded at 10:49:40.847296 after 69.36 seconds
+[0m10:49:40.848348 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6e49146020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6e47fe0880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6e49e59ff0>]}
+[0m10:49:40.849254 [debug] [MainThread]: Flushing usage events
+[0m10:49:42.381295 [debug] [MainThread]: An error was encountered while trying to flush usage events
