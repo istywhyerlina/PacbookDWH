@@ -1,9 +1,11 @@
-# Port Database
-Pada file docker-compose.yml, ubah port database sesuai dengan ketersediaan komputer lokal anda
+# DESIGNING SIMPLE DATA WAREHOUSE MODEL FOR ONLINE BOOKSTORE ECOMMERCE  (WITH DBT)
 
-    ports:
-      - "[SRC_POSTGRES_PORT]:5432"
+## Objectives
+We are about to design data warehouse for PacBook, a company specializing in selling various books, aims to separate their transaction storage from the storage intended for analysis. But first we need to look deeper on how the business work
 
-# Run Docker Compose
-docker compose up -d
+## Data Pipeline Implementation
+
+# Workflow
+Extract and Load Data from Database Source to Database Warehouse Schema Staging using Python
+Transform and Load Data from Schema Staging to Schema Final (Data Warehouse) using DBT
 
